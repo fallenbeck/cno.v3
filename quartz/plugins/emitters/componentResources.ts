@@ -178,10 +178,10 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
           // the static name of this file.
           const [filename, ext] = url.split("/").pop()!.split(".")
 
-          googleFontsStyleSheet = googleFontsStyleSheet.replace(
-            url,
-            `https://${cfg.baseUrl}/static/fonts/${filename}.ttf`,
-          )
+            googleFontsStyleSheet = googleFontsStyleSheet.replace(
+              url,
+              `https://${cfg.baseUrl}/static/fonts/${filename}.ttf`,
+            )
 
           promises.push(
             fetch(url)
