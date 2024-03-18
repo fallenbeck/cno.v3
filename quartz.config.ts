@@ -8,18 +8,20 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    // pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "The very long journey of a Man called Me",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    // analytics: {
+    //   provider: "plausible",
+    // },
+    // locale: "en-US",
+    locale: "de-DE",
+    baseUrl: "fallenbeck.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      cdnCaching: true,
+      cdnCaching: false,
       typography: {
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
