@@ -83,6 +83,7 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         enableRSS: true,
         rssFullHtml: true,  // add full contents to RSS feed
+        rssLimit: 100,      // server 100 entries (instead of 10 (default))
       }),
       Plugin.Assets(),
       Plugin.Static(),
