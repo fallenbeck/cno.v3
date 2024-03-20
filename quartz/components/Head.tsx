@@ -16,7 +16,8 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    // const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    const ogImagePath = `/static/fist_bump.png`
 
     return (
       <head>
@@ -44,6 +45,17 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+
+        {/* Personal modifications */}
+        <link rel="me" href="https://chaos.social/@fallenbeck" />
+        <link rel="me" href="https://social.fallenbeck.com/@niels" />
+
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@fallenbeck" />
+        <meta name="twitter:creator" content="@fallenbeck" />
+
+        <link rel="canonical" href="https://fallenbeck.com/" />
+        <link rel="shortcut icon" href="favicon.ico" />
       </head>
     )
   }
