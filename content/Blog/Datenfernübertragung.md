@@ -14,8 +14,8 @@ Jahre älter als ich und während ich Mitte der Neunzehnhundertneunziger Jahre
 mein folgenschweres Kennenlernen mit einem Modem hatte, war er bereits seit zehn
 Jahren in den Datennetzen unterwegs. Was müssen das für Zeiten gewesen sein!
 
-Vermutlich 1994 erzählte mir ein Schulfreund, dass er einen neuen Computer habe
-- einen Pentium 60 in einem von Colani designten Tower-Gehäuse von Vobis ([Seite
+Vermutlich 1994 erzählte mir ein Schulfreund, dass er einen neuen Computer habe:
+einen Pentium 60 in einem von Colani designten Tower-Gehäuse von Vobis ([Seite
 3](https://www.schmalenstroer.net/books/Alte%20Kataloge/Vobis%20Denkzettel%201993-12-03.pdf)).
 Mit diesem Rechner kam ein entsprechender Monitor und ein 14.400 Baud
 schnelles Modem. Ich erinnere mich, dass ich ihm im Laufe des Abends, an dem
